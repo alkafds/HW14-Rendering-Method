@@ -1,6 +1,19 @@
 ## Getting Started
 
-First, run the development server
+First, install dependencies.
+
+```bash
+yarn install
+```
+then generate prisma and migrate
+
+```bash
+yarn prisma generate
+
+yarn prisma migrate
+```
+
+then,run the development server
 
 ```bash
 npm run dev
@@ -9,6 +22,8 @@ yarn dev
 # or
 pnpm dev
 ```
+
+Finally,
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
